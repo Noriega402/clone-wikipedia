@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="http://fonts.cdnfonts.com/css/linux-libertine" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/314db632b8.js" crossorigin="anonymous"></script>
+    <title>Wikipedia</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="./assets/icons/wikipedia.png" alt="wikipedia-2022" class="img-logo">
+            <div class="header__container--title">
+                <h1>Wikipedia</h1>
+                <p>The Free Encyclopedia</p>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main__container__frm">
+                <form class="frm" action="#">
+                    <input type="text" class="frm__input--text" name="search">
+                    <select name="language" id="lan" class="frm__select--language">
+                        <option value="0">ES</option>
+                    </select>
+                    <button class="frm__search--button"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+            <section class="main__container__languages">
+                <article class="language english">
+                    <a href="#">English</a>
+                    <p>6 458 000+ artículos</p>
+                </article>
+                <article class="language spanish">
+                    <a href="#">Español</a>
+                    <p>1 755 000+ artículos</p>
+                </article>
+                <article class="language italian">
+                    <a href="#">Italiano</a>
+                    <p>1 742 000+ artículos</p>
+                </article>
+                <article class="language french">
+                    <a href="#">Frances</a>
+                    <p>2 901 000+ artículos</p>
+                </article>
+                <article class="language chine">
+                    <a href="#">Chino</a>
+                    <p>3 346 000+ artículos</p>
+                </article>
+                <article class="language polac">
+                    <a href="#">Polaco</a>
+                    <p>1 512 000+ artículos</p>
+                </article>
+                <article class="language portugues">
+                    <a href="#">Portugues</a>
+                    <p>1 085 000+ artículos</p>
+                </article>
+                <article class="language germany">
+                    <a href="#">Aleman</a>
+                    <p>2 677 000+ artículos</p>
+                </article>
+                <article class="language mandarin">
+                    <a href="#">Mandarin</a>
+                    <p>1 237 000+ artículos</p>
+                </article>
+                <article class="language other">
+                    <a href="#">Otros</a>
+                    <p>6 789 000+ artículos</p>
+                </article>
+            </section>
+            <section class="main__container__list">
+                <button class="btn list__wrapper"><i class="fa-solid fa-language icon icon--language"></i> Leer
+                    Wikipedia en
+                    tu idioma <i class="fa fa-arrow-down icon icon-arrow"></i></button>
+            </section>
+            <div class="list__border"></div>
+        </main>
+    </div>
+    <hr>
+    <footer class="footer">
+        <section class="footer__license">
+            <p>Esta página está disponible bajo la
+                <a href="#"> licencia Creative Commons Atribución-CompartirIgual</a>
+                <a href="#"> Términos de uso</a>
+                <a href="#"> Normativa de privacidad</a>
+            </p>
+        </section>
+        <article class="footer__container__sidebar">
+            <div class="sidebar--logo"></div>
+            <strong>Descargar Wikipedia para Android o iOS</strong>
+            <p>Guarda tus artículos favoritos para leerlos sin conexión, sincroniza tus listas de lectura en varios
+                dispositivos y personaliza tu experiencia de lectura con la aplicación oficial de Wikipedia.</p>
+            <div class="download">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="https://www.nocatee.com/hs-fs/hubfs/images/google-play-badge_1.png?width=314&name=google-play-badge_1.png"
+                                alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="https://www.nocatee.com/hs-fs/hubfs/images/google-play-badge_1.png?width=314&name=google-play-badge_1.png"
+                                alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <hr>
+        </article>
+        <article class="footer__container__sidebar--content">
+            <div class="sidebar--icon"></div>
+            <p>Wikipedia es alojada por la Fundación Wikimedia, una organización sin fines de lucro que también alberga
+                una gama de otros proyectos.</p>
+            <a href="#">Puedes apoyar nuestro trabajo con una donación.</a>
+        </article>
+        <article class="footer__container__projects">
+            <div class="card__container__project">
+                <a href="#" class="other__link">
+                    <img src="./assets/icons/Commons-logo.svg" class="logo">
+                    <div class="other__link__container--text">
+                        <p class="link--title">Commons</p>
+                        <p class="link--subtitle">Freely usable photos & more</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card__container__project">
+                <a href="#" class="other__link">
+                    <img src="./assets/icons/Wikivoyage-Logo.svg.png" class="logo">
+                    <p>Wikivoyage</p>
+                    <p>Free travel guide</p>
+                </a>
+            </div>
+            <div class="card__container__project">
+                <a href="#" class="other__link">
+                    <img src="./assets/icons/Wiktfavicon.svg.png" class="logo">
+                    <p>Wikidictionary</p>
+                    <p>Free dictionary</p>
+                </a>
+            </div>
+            <div class="card__container__project">
+                <a href="#" class="other__link">
+                    <img src="./assets/icons/Wikibooks-logo.svg.png" class="logo">
+                    <p>Wikibooks</p>
+                    <p>Free textbooks</p>
+                </a>
+            </div>
+            <div class="card__container__project">
+                <a href="#" class="other__link">
+                    <img src="./assets/icons/Wikinews-logo.svg.png" class="logo">
+                    <p>Wikinews</p>
+                    <p>Free new source</p>
+                </a>
+            </div>
+            <div class="card__container__project">
+                <a href="#" class="other__link">
+                    <img src="./assets/icons/Notification-Wikidata-logo.svg.png" class="logo">
+                    <p>Wikidata</p>
+                    <p>Free knowledge base</p>
+                </a>
+            </div>
+            <div class="card__container__project">
+                <a href="#" class="other__link">
+                    <img src="./assets/icons/Wikiversity_logo.svg.png" class="logo">
+                    <p>Wikiversity</p>
+                    <p>Free course materials</p>
+                </a>
+            </div>
+            <div class="card__container__project">
+                <a href="#" class="other__link">
+                    <img src="./assets/icons/Notification-Wikiquote.svg.png" class="logo">
+                    <p>Wikiquote</p>
+                    <p>Free quote compedium</p>
+                </a>
+            </div>
+            <div class="card__container__project">
+                <a href="#" class="other__link">
+                    <img src="./assets/icons/Notification-MediaWiki-logo.svg.png" class="logo">
+                    <p>Mediwiki</p>
+                    <p>Free & open wiki aplication</p>
+                </a>
+            </div>
+            <div class="card__container__project">
+                <a href="#" class="other__link">
+                    <img src="./assets/icons/Wikisource-logo.svg.png" class="logo">
+                    <p>Wikisource</p>
+                    <p>Free library</p>
+                </a>
+            </div>
+            <div class="card__container__project">
+                <a href="#" class="other__link">
+                    <img src="./assets/icons/Wikispecies-logo.svg.png" class="logo">
+                    <p>Wikiespecies</p>
+                    <p>Free species directory</p>
+                </a>
+            </div>
+            <div class="card__container__project">
+                <a href="#" class="other__link">
+                    <img src="./assets/icons/Meta-Wiki_Proposed_logo.svg.png" class="logo">
+                    <p>Metawiki</p>
+                    <p>Comunity coordination & documentacion</p>
+                </a>
+            </div>
+        </article>
+    </footer>
+</body>
+
+</html>
